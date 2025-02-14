@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 
 import { blackPawn } from "../data/pieces.js";
@@ -46,10 +47,21 @@ export function initGameRender(data){
             }
 
 
+=======
+const ROOT_DIV = document.getElementById("root");
+
+export function initGameRender(data){
+    data.forEach(element => {
+        const rowEl = document.createElement("div");
+        element.forEach((square) => {
+            const squareDiv = document.createElement("div");
+            squareDiv.classList.add(square.color,"square");
+>>>>>>> 14d1ac661ba2b7b0bd61643c95587c3abfa3feb0
             rowEl.appendChild(squareDiv);
         });
         
         rowEl.classList.add("squareRow");
+<<<<<<< HEAD
         ROOT_DIV.appendChild(rowEl); 
     });
 
@@ -57,3 +69,8 @@ export function initGameRender(data){
 
 };
 
+=======
+        ROOT_DIV.appendChild(rowEl);
+    });
+};
+>>>>>>> 14d1ac661ba2b7b0bd61643c95587c3abfa3feb0
