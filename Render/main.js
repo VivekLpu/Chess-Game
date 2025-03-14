@@ -159,3 +159,4 @@ export function initGameRender(data) {
   });
   pieceRender(data);
 }
+//commited
