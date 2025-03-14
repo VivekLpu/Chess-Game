@@ -1,5 +1,5 @@
 body{
-    background-color: #302e2b;
+    background-color: #313334;
 }
 
 #root{
@@ -26,11 +26,23 @@ body{
 
 .black{
     background-color: #769656;
-<<<<<<< HEAD
+}
+
+.highlightYellow{
+    background-color: #f7f769;
 }
 
 .piece{
     width: 100%;
-=======
->>>>>>> 14d1ac661ba2b7b0bd61643c95587c3abfa3feb0
+    cursor: grab;
+}
+
+.highlight{
+    width: 32px;
+    display: block;
+    height: 32px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.17);
 }
